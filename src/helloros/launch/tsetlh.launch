@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="helloros" type="person_talker" name="person_talker" output="screen"/>
+    <node pkg="helloros" type="person_listener" name="person_listener" output="screen"/>
+
+</launch>

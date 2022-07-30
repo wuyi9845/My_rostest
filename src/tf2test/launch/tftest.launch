@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="tf2test" type="static_brocast" name="static_brocast" output="screen"/>
+    <node pkg="tf2test" type="tf_sub" name="tf_sub" output="screen"/>
+</launch>
